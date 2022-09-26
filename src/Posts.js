@@ -6,7 +6,7 @@ function Posts() {
   let [postArray, setPostArray] = useState("");
   function getPosts() {
     axios
-      .get("http://localhost:5000/posts")
+      .get("https://maroon-chain-stop.glitch.me/posts")
       .then((response) => {
         const posts = response.data;
         setPostArray(posts);

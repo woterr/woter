@@ -18,7 +18,7 @@ function Design() {
 
     if (serviceArray.some((item) => item)) {
       await axios
-        .post("http://localhost:5000/designs", {
+        .post("https://maroon-chain-stop.glitch.me/designs", {
           name: name,
           email: email,
           message: message,
