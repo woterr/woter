@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Staque",
+    "url": "https://staque.vercel.app",
+    "github": "https://github.com/woterr/staque/",
+    "description": "The ideal Discord bot for managing tickets on and around your server."
+  },
+  {
+    "name": "Knotts wait times",
+    "github": "https://github.com/woterr/knotts-wait-times",
+    "description": "A bot which tracks wait times at Knott's park."
+  },
+  {
+    "name": "Notesyy",
+    "url": "https://notesyy.netlify.app/",
+    "github": "https://github.com/woterr/Notesy",
+    "description": "An application which saves your notes on Local Storage."
+  },
+  {
+    "name": "Coloriffy",
+    "url": "https://coloriffy.netlify.app/",
+    "github": "https://github.com/woterr/colorify",
+    "description": "A color palette generator which contains 75+ premade color palettes."
+  },
+  {
+    "name": "Web server",
+    "github": "https://github.com/woterr/Basic-web-server-localhost",
+    "description": "A basic web server template using NodeJS and ExpressJS."
+  }
+]

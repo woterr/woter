@@ -1,0 +1,30 @@
+.carousel {
+  cursor: grab !important;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  overflow: hidden;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel-item {
+  height: 20rem;
+  min-width: 20rem;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.carousel-item div {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  border: 2px solid var(--container-color-light);
+  pointer-events: none;
+}
