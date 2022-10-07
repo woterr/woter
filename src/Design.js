@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
+
 function Design() {
+  const navigate = useNavigate();
   const [ServiceErrorMessage, setServiceErrorMessage] = useState("");
   const [sentHandle, setSentHandle] = useState(false);
 
@@ -17,6 +20,7 @@ function Design() {
     const serviceArray = [web, UI, UX];
 
     if (serviceArray.some((item) => item)) {
+      navigate("/sent");
       await axios
         .post("https://maroon-chain-stop.glitch.me/designs", {
           name: name,

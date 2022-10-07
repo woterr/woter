@@ -1,4 +1,4 @@
-import { checkTargetForNewValues, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import "./imageSlider.css";
 import axios from "axios";

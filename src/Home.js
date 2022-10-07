@@ -49,6 +49,7 @@ function Home() {
               <img
                 src="https://media.discordapp.net/attachments/915979380826734612/1023614764607340574/Desktop.png"
                 className="featured-image featured-long-image"
+                alt=""
               />
             </a>
             <a href="https://staque.vercel.app/" className="featured-card">
@@ -64,6 +65,7 @@ function Home() {
               <img
                 src="https://staque.vercel.app/images/logo-full.png"
                 className="featured-image"
+                alt=""
               />
             </a>
             <a href="https://sarc.xyz/" className="featured-card">
