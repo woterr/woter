@@ -101,7 +101,7 @@ function Home() {
             <div className="service">
               <h3 className="subtitle">UI/UX deisgn</h3>
               <p className="description">
-                Case study and nie, clean, responsive UI designed <br /> with
+                Case study and simple, clean, responsive UI designed <br /> with
                 provided source files.
               </p>
             </div>

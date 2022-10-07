@@ -4,13 +4,13 @@
   --header-height: 4.5rem;
 
   /*========== Colors ==========*/
-  --body-color: #181818;
-  --container-color: #202020;
-  --container-color-light: #474747;
-  --primary-color: #8f5bff;
-  --primary-color-light: #9767ff;
-  --text-color: #747474;
-  --text-color-light: #8d8d8d;
+  --body-color: #191724;
+  --container-color: #1f1d2e;
+  --container-color-light: #26233a;
+  --primary-color: #b399d3;
+  --primary-color-light: #ba9ddd;
+  --text-color: #e0def4;
+  --text-color-light: #cdccdd;
 
   --title-color: #ffffff;
 
@@ -151,7 +151,6 @@ input[type="number"] {
   font-family: var(--body-font);
   font-weight: var(--font-medium);
   font-size: var(--normal-font-size);
-  text-transform: uppercase;
   border-radius: 5rem;
   cursor: pointer;
   margin-top: 2rem;
@@ -480,9 +479,13 @@ header {
   background: none;
   padding: 0.75rem;
   border-radius: 0.5rem;
-  color: var(--text-color-light);
+  color: var(--text-color);
   border: 2px solid var(--primary-color-light);
   margin-top: 0.5rem;
+}
+
+.form-input::placeholder {
+  color: var(--primary-color);
 }
 
 .form-number-input-wrap {
