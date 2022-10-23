@@ -11,7 +11,7 @@ function ImageSlider() {
 
   function getPosts() {
     axios
-      .get("https://enshrined-tasty-snagglefoot/posts")
+      .get("https://enshrined-tasty-snagglefoot.glitch.me/posts")
       .then((response) => {
         const posts = response.data;
         setPostArray(posts);
