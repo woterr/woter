@@ -22,7 +22,7 @@ function Design() {
     if (serviceArray.some((item) => item)) {
       navigate("/sent");
       await axios
-        .post("https://maroon-chain-stop.glitch.me/designs", {
+        .post("https://enshrined-tasty-snagglefoot/designs", {
           name: name,
           email: email,
           message: message,
