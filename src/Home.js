@@ -92,14 +92,14 @@ function Home() {
           <h1 className="title">Services I provide</h1>
           <div className="services-container">
             <div className="service">
-              <h3 className="subtitle">Web deisgn</h3>
+              <h3 className="subtitle">Web design</h3>
               <p className="description">
                 Excellent responsive designs hosted on the <br /> net with
                 mobile and desktop compability.
               </p>
             </div>
             <div className="service">
-              <h3 className="subtitle">UI/UX deisgn</h3>
+              <h3 className="subtitle">UI/UX design</h3>
               <p className="description">
                 Case study and simple, clean, responsive UI designed <br /> with
                 provided source files.
