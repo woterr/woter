@@ -40,6 +40,7 @@ function Design() {
     <div>
       <section className="section">
         <div className="container">
+          <p className="important">Currently I am unavailable for any new freelance collaborations.</p>
           <h1 className="title">I'm interested in...</h1>
           <form className="form-group" onSubmit={handleData} action="/">
             <div className="form-input-checkbox">

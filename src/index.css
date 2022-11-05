@@ -713,3 +713,8 @@ header {
     flex-direction: column;
   }
 }
+
+.important{
+	padding: 1rem 2rem;
+	background: #ff2424;
+}
