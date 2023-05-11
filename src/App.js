@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Pages/Home";
+import Contact from "./Pages/Contact";
+import About from "./Pages/About";
+import Info from "./Pages/Info";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
+      <Route
+        path="/sent"
+        element={
+          <Info
+            title={"Message delivered"}
+            description={
+              "Thank you for your message! We have received it and will respond as soon as possible."
+            }
+          />
+        }
+      />
+      <Route
+        path="*"
+        element={
+          <Info
+            title={"Error 404"}
+            description={
+              "We're sorry, the page you were looking for could not be found. It's possible that the page has been removed, renamed, or is temporarily unavailable."
+            }
+          />
+        }
+      />
+    </Routes>
   );
 }
 
