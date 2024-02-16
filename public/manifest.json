@@ -23,7 +23,7 @@
       "sizes": "192x192"
     },
     {
-      "src": ".well-known/discord.txt",
+      "src": ".well-known/discord",
       "type": "txt",
       "sizes": "192x192"
     }
