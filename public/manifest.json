@@ -21,6 +21,11 @@
       "src": "logo-light.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": ".well-known/discord.txt",
+      "type": "txt",
+      "sizes": "192x192"
     }
   ],
   "start_url": ".",
