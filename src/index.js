@@ -11,6 +11,5 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-    <Footer />
   </React.StrictMode>
 );
