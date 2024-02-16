@@ -32,7 +32,6 @@ export function App() {
           />
         }
       />
-      <Route path="/.well-known/discord" element="dh=7a08a33c57c4e338606f8fc3e6747eeb81eac5a5" />
     </Routes>
   );
 }
