@@ -41,9 +41,6 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="rights">
-            <span>© Copyright Woter.</span>
-          </div>
         </div>
       </footer>
     </>
